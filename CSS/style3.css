@@ -1,0 +1,63 @@
+body {
+    background-color: #434546; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-copy, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-copy {
+    background-color: #007bff;
+}
+
+.btn-copy:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.code-box {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
